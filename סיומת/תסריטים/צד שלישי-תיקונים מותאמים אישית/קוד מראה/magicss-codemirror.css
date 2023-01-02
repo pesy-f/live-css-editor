@@ -41,3 +41,39 @@ html .CodeMirror-hints {
        suggestions list is too wide */
     max-width: 90vw;
 }
+/*חלון התוסף*/
+#MagiCSS-bookmarklet {
+    padding: 0 1px !important;
+    box-shadow: 0 0 92px rgba(0,41,89,0.17) !important;
+    background: rgba(255,255,255,0.44) !important;
+    backdrop-filter: blur(30px) !important;
+    border-radius: 15px !important;
+}
+#MagiCSS-bookmarklet > div.raw-codemirror-container > div {
+    font-family: 'rubik' !important;
+}
+
+#MagiCSS-bookmarklet > div.raw-codemirror-container > div {
+    background: rgba(255,255,255,0.02) !important;
+    padding: 15px;
+}
+
+#MagiCSS-bookmarklet > div.magic-css-header > div.magic-css-header-left-section > div > div {
+    background-color: #b40032 !important;
+    border-radius: 15px;
+    padding: 0;
+    font-family: 'rubik' !important;
+}
+
+#MagiCSS-bookmarklet > div.magic-css-header {
+    padding: 8px 15px 0;
+}
+
+#MagiCSS-bookmarklet > div.raw-codemirror-container > div > div.CodeMirror-scrollbar-filler {
+    background: rgba(255,255,255,0.02) !important;
+}
+ ::-webkit-scrollbar,
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
